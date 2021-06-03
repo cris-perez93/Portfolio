@@ -1,0 +1,157 @@
+
+  
+  
+  .navbar{
+    display:flex;
+    position:fixed;
+    justify-content:space-between;
+    align-items:center;
+    top: 0;
+    z-index: 20;
+    background-color: black;
+    width: 100%;
+  }
+
+  .nav_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 28px;
+    align-items: center;
+    
+    
+  }
+
+ 
+
+  
+  .menuItems{
+    display:flex;
+    text-decoration:none;
+    font-family:'Montserrat',sans-serif;
+    font-weight:bold;
+    text-align:center;
+    transition: all .8s ease-in;
+    font-size:16px;
+    list-style-type: none;
+    background: black;
+   
+    padding: 10px;
+    
+  }
+  
+ 
+
+  li {
+    list-style-type: none;
+    margin-right:30px;
+  }
+
+  .enlaces{
+    color:whitesmoke;
+    text-decoration: none;
+    width: 100%;
+    letter-spacing:0.5rem;
+    text-transform: uppercase;
+    transition: ease-in-out .6s;
+    text-align: center;
+    margin-right:15px;
+    font-size: 12px;
+    cursor: pointer;
+    
+  }
+  
+  .enlaces:hover{
+    color:rgb(145, 16, 16);
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .menuItems:hover{
+    background-color:#00000052;
+    color: #FFFFFF;
+    
+       
+  }
+
+  .nav_icon{
+    opacity: 0;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+
+  
+
+  @media (max-width: 770px){
+
+ .navbar{
+   display: block;
+   position:fixed;
+   float: right;
+   right: 0;
+   width: 100%;
+   
+  }
+
+  .nav_container{
+    display:block;
+    
+  
+  }
+
+  .menuItems{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+   background-color: brown;
+   float: right;
+   right: 0;
+   top: 0;
+   left: -110%;
+   width: 50%;
+   position: absolute;
+   height: 100vh;
+   animation-name: none;
+   transition: .4s ease-in-out;
+  }
+
+  .menuItems.active{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: brown;
+    float: right;
+    height:100vh;
+    right: 0;
+    top: 0;
+    width: 50%;
+    left: 0;
+    position:absolute;
+    transition: .4s ease-in-out;
+    
+}
+
+  .nav_icon{
+    opacity: 1;
+    position: absolute;
+    
+    top: 13px;
+    z-index: 99;
+    
+  }
+
+  
+}
+
+
+
+  
+
+ 
+ 
+
+
+
+
+  

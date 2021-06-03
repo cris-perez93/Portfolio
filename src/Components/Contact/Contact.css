@@ -1,0 +1,111 @@
+
+
+.btn_contact{
+    width: 100px;
+    border-radius:50px;
+    position:fixed;
+    z-index: 80;
+    top: 95px;
+    left: 30px;
+    transition: .7s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+  }
+  .contact_title{
+    font-size: 18px;
+    color: brown;
+   
+    
+  }
+
+  .logo_fixed{
+   width: 100px;
+   border-radius: 50px;
+   transition: .4s ease-in-out;
+
+  }
+
+  .logo_fixed:hover{
+    opacity: .5;
+
+  }
+
+ 
+
+  .social_media{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height:200px;
+    margin-top: 10px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: .7s ease-in;
+    
+    
+    
+    
+}
+.social_desactivate{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 300px;
+  margin-top: 10px;
+  color:white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  left: -110%;
+  background-color: brown;
+  position: absolute;
+
+  
+}
+
+
+
+.social_icon .fa{
+  color: white;
+  font-size: 25px;
+  transition: .2s ease-in;
+
+  
+}
+
+ 
+  .social_icon .fa:hover{
+    transform: translateY(-5px);
+  }
+
+  .fa.scrolling{
+    color: black;
+  }
+
+  .title_scrolling{
+    color: black;
+    
+  }
+
+  @media (max-width: 1024px){
+    .btn_contact{
+      left: 5px;
+      
+    }
+   
+    .social_icon, h2{
+      font-size: 16px;
+    }
+
+
+  }
+
+  @media (max-width: 770px){
+    .btn_contact{
+      display: none;
+    }
+  }
+
+ 
