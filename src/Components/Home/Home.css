@@ -129,3 +129,15 @@
     }
   }
 
+
+  @media (max-width: 480px){
+
+    .container_portrait{
+      
+      height: 680px;
+      
+    }
+
+    
+
+  }

@@ -176,6 +176,10 @@
     border-radius: 10px;
 }
 
+.icon_mobile{
+    display: none;
+}
+
 @media (max-width: 780px){
 
 
@@ -213,5 +217,48 @@
       margin-left: 10px;
 
   }
+}
+
+@media (max-width: 480px){
+
+    .swiper-button-next::after{
+        display: none;
+    }
+
+    .swiper-button-prev::after{
+        display: none;
+    }
+    
+
+    .icons{
+        display: none;
+    }
+    .details{
+        opacity: 1;
+        
+    }
+
+    .details h2{
+        font-size: 30px;
+    }
+
+    i.fab.fa-github{
+        display: none;
+    }
+
+    a.icon, a.icon p{
+        margin: 0;
+        
+    }
+
+    .icon_mobile{
+        display:block;
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+   
+
 }
 

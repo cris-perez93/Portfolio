@@ -53,16 +53,24 @@ const CarouselProjects = () => {
             <div className="icons">
               <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
               <a className="icon" href="#"><p>Demo</p></a>
+              
              </div>
-             <div className="details"><h2>ApiFilms</h2></div>
+             <div className="details">
+               <h2>ApiFilms</h2>
+               <a className="icon_mobile" href="#"><i className="fas fa-external-link-alt"></i></a>
+               </div>
           </SwiperSlide>
           <SwiperSlide>
               <img className="projects_image" src ={Project2}/>
               <div className="icons">
                 <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
                 <a className="icon" href="#"><p>Demo</p></a>
+               
               </div>
-              <div className="details"><h2>Crypto Api</h2></div>
+              <div className="details">
+                <h2>Crypto Api</h2>
+                <a className="icon_mobile" href="#"><i className="fas fa-external-link-alt"></i></a>
+                </div>
          </SwiperSlide>
 
           <SwiperSlide>
@@ -70,8 +78,13 @@ const CarouselProjects = () => {
               <div className="icons">
                 <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
                 <a className="icon" href="#"><p>Demo</p></a>
+                
               </div>
-              <div className="details"><h2>Cotizador de Seguros</h2></div>
+              <div className="details">
+                <h2>Cotizador de Seguros</h2>
+                <a className="icon_mobile" href="#"><i className="fas fa-external-link-alt"></i></a>
+                </div>
+              
           </SwiperSlide>
 
           <SwiperSlide>
@@ -80,8 +93,13 @@ const CarouselProjects = () => {
               <div className="icons">
               <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
               <a className="icon" href="#"><p>Demo</p></a>
+              
               </div>
-              <div className="details"><h2>Presupuesto</h2></div>
+              <div className="details">
+                <h2>Presupuesto</h2>
+                <a className="icon_mobile" href="#"><i className="fas fa-external-link-alt"></i></a>
+              </div>
+              
           
           </SwiperSlide>
           
