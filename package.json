@@ -1,8 +1,9 @@
 {
-  "homepage":"https://yourusername.github.io/repository-name",
+  
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cris-perez93.github.io/portfolio",
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/styled": "^11.3.0",
@@ -20,8 +21,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy":"gh-pages -d build"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
