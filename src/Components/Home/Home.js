@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import './Home.css';
 
 const Home = () => {

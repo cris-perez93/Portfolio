@@ -30,8 +30,8 @@ const Contact = () => {
             
              <div className={click ? "social_media" : "social_desactivate"}>
              
-             <a className="social_icon" href="https://www.instagram.com/crispero26/" target="_blank"><i className={click ? "fa fa-instagram" : null}></i></a>
-              <a className="social_icon" href="https://github.com/cris-perez93"target="_blank"><i className= {click ? "fa fa-github" : null}></i></a>
+             <a className="social_icon" href="https://www.instagram.com/crispero26/" target="_blank"rel="noopener noreferrer"><i className={click ? "fa fa-instagram" : null}></i></a>
+              <a className="social_icon" href="https://github.com/cris-perez93"target="_blank"rel="noopener noreferrer"><i className= {click ? "fa fa-github" : null}></i></a>
             
              
              

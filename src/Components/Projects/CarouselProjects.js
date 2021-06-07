@@ -15,7 +15,6 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import { Fragment, useEffect } from 'react';
-import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Aos from 'aos';
 
@@ -49,10 +48,10 @@ const CarouselProjects = () => {
           
         >
           <SwiperSlide>
-            <img className="projects_image" src ={Project1}/>
+            <img className="projects_image" alt="project" src ={Project1}/>
             <div className="icons">
-              <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
-              <a className="icon" href="#"><p>Demo</p></a>
+              <a className="icon" href="https://github.com/cris-perez93/movies" target="_blank" rel="noopener"><i className="fab fa-github" aria-hidden="true"></i></a>
+              <a className="icon" href="https://cris-perez93.github.io/movies/" target="_blank" rel="noopener"><p>Demo</p></a>
               
              </div>
              <div className="details">
@@ -61,10 +60,10 @@ const CarouselProjects = () => {
                </div>
           </SwiperSlide>
           <SwiperSlide>
-              <img className="projects_image" src ={Project2}/>
+              <img className="projects_image" alt="project" src ={Project2}/>
               <div className="icons">
-                <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
-                <a className="icon" href="#"><p>Demo</p></a>
+                <a className="icon" href="https://github.com/cris-perez93/criptomonedas" target="_blank" rel="noopener"><i className="fab fa-github" aria-hidden="true"></i></a>
+                <a className="icon" href="https://cris-perez93.github.io/criptomonedas/" target="_blank" rel="noopener"><p>Demo</p></a>
                
               </div>
               <div className="details">
@@ -74,7 +73,7 @@ const CarouselProjects = () => {
          </SwiperSlide>
 
           <SwiperSlide>
-              <img className="projects_image" src ={Project3}/>
+              <img className="projects_image" alt="project" src ={Project3}/>
               <div className="icons">
                 <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
                 <a className="icon" href="#"><p>Demo</p></a>
@@ -88,7 +87,7 @@ const CarouselProjects = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-              <img className="projects_image4" src ={Project4}/>
+              <img className="projects_image4" alt="project" src ={Project4}/>
             
               <div className="icons">
               <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>

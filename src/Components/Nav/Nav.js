@@ -1,7 +1,7 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 import './Nav.css';
 import { Fragment, useState } from "react";
-import { ClickAwayListener } from "@material-ui/core";
+
 
 
 const Nav = () => {
