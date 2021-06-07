@@ -90,13 +90,13 @@ const CarouselProjects = () => {
               <img className="projects_image4" alt="project" src ={Project4}/>
             
               <div className="icons">
-              <a className="icon" href="#"><i className="fab fa-github" aria-hidden="true"></i></a>
-              <a className="icon" href="#"><p>Demo</p></a>
+              <a className="icon" href="https://github.com/cris-perez93/Presupuesto" target="_blank" rel="noopener">><i className="fab fa-github" aria-hidden="true"></i></a>
+              <a className="icon" href="https://cris-perez93.github.io/Presupuesto/" target="_blank" rel="noopener"><p>Demo</p></a>
               
               </div>
               <div className="details">
                 <h2>Presupuesto</h2>
-                <a className="icon_mobile" href="#"><i className="fas fa-external-link-alt"></i></a>
+                <a className="icon_mobile" href="https://cris-perez93.github.io/Presupuesto/" target="_blank" rel="noopener"><i className="fas fa-external-link-alt"></i></a>
               </div>
               
           
