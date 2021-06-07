@@ -56,7 +56,7 @@ const CarouselProjects = () => {
              </div>
              <div className="details">
                <h2>ApiFilms</h2>
-               <a className="icon_mobile" href="#"><i className="fas fa-external-link-alt"></i></a>
+               <a className="icon_mobile" href="https://cris-perez93.github.io/movies/"  target="_blank" rel="noopener"><i className="fas fa-external-link-alt"></i></a>
                </div>
           </SwiperSlide>
           <SwiperSlide>
