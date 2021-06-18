@@ -34,7 +34,9 @@ const About = () => {
              data-aos-easing="linear"
               data-aos-duration="1500">
                 <h2>About me</h2>
-                <p className="parrafo">My interest in development and web design started a few months ago. In a short time I have developed a special taste for web design and web development, interested in continuing to progress in different technologies and especially in interface design."
+                <p className="parrafo">I am Cristian! Frontend Developer Junior, Passionate about new technologies and web development and interactive design, React is my best ally to create new projects.
+
+                I have always been passionate about design in all its aspects, and discovering design adapted to web technology is quite rewarding. In the projects that I develop I try to be dynamic, responsive, intuitive and fast.
                 </p>
             </div> 
     </div>

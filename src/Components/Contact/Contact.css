@@ -67,12 +67,22 @@
 
 
 
-.social_icon .fa{
+.social_icon .fa {
   color: white;
   font-size: 25px;
   transition: .2s ease-in;
 
   
+}
+
+.fab{
+  color: white;
+  font-size: 25px;
+  transition: .2s ease-in;
+}
+
+.fab:hover{
+  transform: translateY(-5px);
 }
 
  
@@ -107,5 +117,7 @@
       display: none;
     }
   }
+
+ 
 
  
