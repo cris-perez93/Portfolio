@@ -40,9 +40,9 @@
     height:200px;
     margin-top: 10px;
     color:white;
-    background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    transition: .7s ease-in;
+    transition: .3s ease-in;
+    
     
     
     
@@ -56,10 +56,7 @@
   height: 300px;
   margin-top: 10px;
   color:white;
-  background-color: rgb(0, 0, 0);
   border-radius: 10px;
-  left: -110%;
-  background-color: brown;
   position: absolute;
 
   
@@ -70,7 +67,11 @@
 .social_icon .fa {
   color: white;
   font-size: 25px;
-  transition: .2s ease-in;
+  transition: .1s ease-in;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  
 
   
 }
@@ -79,15 +80,20 @@
   color: white;
   font-size: 25px;
   transition: .2s ease-in;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .fab:hover{
   transform: translateY(-5px);
+  box-shadow: 3px 3px 3px rgba(165, 42, 42, 0.644);
 }
 
  
   .social_icon .fa:hover{
     transform: translateY(-5px);
+    box-shadow: 3px 3px 3px rgba(165, 42, 42, 0.644);
   }
 
   .fa.scrolling{

@@ -16,7 +16,7 @@ import SecondFace  from './../../Images/Portrait3.jpg';
 const About = () => {
       
     useEffect(()=>{
-        Aos.init({duration:2000});
+        Aos.init({duration:500});
     },[]);
 
 
@@ -26,13 +26,13 @@ const About = () => {
      <div className="description_container" id="about">
             <div className="photo_content" data-aos="fade-down"
              data-aos-easing="linear"
-             data-aos-duration="1500">
+             data-aos-duration="500">
             <img className="photo"src={SecondFace} alt="portrait"></img>
            
             </div>
             <div className="text_content"data-aos="fade-down"
              data-aos-easing="linear"
-              data-aos-duration="1500">
+              data-aos-duration="500">
                 <h2>About me</h2>
                 <p className="parrafo">I am Cristian! Frontend Developer Junior, Passionate about new technologies and web development and interactive design, React is my best ally to create new projects.
 
