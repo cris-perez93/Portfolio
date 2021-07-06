@@ -14,13 +14,13 @@ const Skills = () => {
         <section className="skills_container" id="skills">
        
             <div className="skills" >
-            <div className="skills_text" data-aos="fade-right" data-aos-offset="200"
+            <div className="skills_text" data-aos="fade-right" data-aos-offset="100"
              data-aos-easing="ease-in-sine">  
                     <h2 className="skills_title"> Skills</h2>
                     <p>One of my professional objectives is adapted to the needs to evolve and improve within the company where I develop as a professional with a high interest in new technologies and continuous learning.</p>
             </div>
             </div>
-            <div className="logos_container" data-aos="fade-left" data-aos-offset="200"
+            <div className="logos_container" data-aos="fade-left" data-aos-offset="100"
              data-aos-easing="ease-in-sine">
                 <div className="container_bars">
                     <div className="card">
