@@ -6,7 +6,7 @@ import { Fragment, useEffect } from 'react';
 import 'aos/dist/aos.css'; 
 import Aos from 'aos';
 
-import SecondFace  from './../../Images/Portrait3.jpg';
+import Perfil  from './../../Images/1.jpg';
 
 
 
@@ -27,7 +27,7 @@ const About = () => {
             <div className="photo_content" data-aos="fade-down"
              data-aos-easing="linear"
              data-aos-duration="500">
-            <img className="photo"src={SecondFace} alt="portrait"></img>
+            <img className="photo"src={Perfil} alt="portrait"></img>
            
             </div>
             <div className="text_content"data-aos="fade-down"

@@ -5,6 +5,9 @@ import Js  from './../../Images/logojs.png'
 import Reactlogo  from './../../Images/Reactlogo.svg'
 import Git  from './../../Images/logogit.png'
 import Bootstrap  from './../../Images/bootstrap.png'
+import ReduxPng  from './../../Images/redux.png'
+import Github  from './../../Images/github.png'
+import Node  from './../../Images/node.png'
 import 'aos/dist/aos.css'; 
 
 
@@ -61,6 +64,25 @@ const Skills = () => {
                         <h2 className="text">Bootstrap</h2>
                     </div>
                 </div>
+                <div className="container_bars">
+                    <div className="card">
+                        <img className="logo" alt="bredux" src={ReduxPng}/>
+                        <h2 className="text">Redux</h2>
+                    </div>
+                </div>
+                <div className="container_bars">
+                    <div className="card">
+                        <img className="logo" alt="bredux" src={Github}/>
+                        <h2 className="text">Github</h2>
+                    </div>
+                </div>
+                <div className="container_bars">
+                    <div className="card">
+                        <img className="logo" alt="bredux" src={Node}/>
+                        <h2 className="text">NodeJs</h2>
+                    </div>
+                </div>
+                
             </div> 
     </section>   
      );

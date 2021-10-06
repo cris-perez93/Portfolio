@@ -1,10 +1,15 @@
 
-
+.about_container{
+  width: 100%;
+}
 
 .container_portrait{
     display: flex;
+    width: 100%;
     align-items: center;
-    background-color: black;
+    background-image: url(./../../Images/banner.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(./../../Images/banner.jpg);
+    background-position: center;
     height: 862.19px;
     justify-content: center;
     
@@ -44,13 +49,8 @@
    
   }
   
-  .hello:hover{
-    
-    text-shadow: brown 10px 10px;
-  }
-  
-  
-  .description{
+ 
+   .description{
     font-size: 1.2em;
     
   }
@@ -70,7 +70,7 @@
       font-family:'Poppins', sans-serif;
       color:#FFFFFF;
       text-align:center;
-      transition: all 0.7s;
+      transition: all 0.2s;
       background:transparent;
       font-size:16px;
   
@@ -79,7 +79,8 @@
   .boton:hover{
   
       color:#ffffff;
-      background-color:rgba(145, 16, 16, 0.486);
+      background-color:rgba(110, 16, 16, 0.918);
+      
   }
 
   .container_right{

@@ -2,7 +2,6 @@ import Nav from './Components/Nav/Nav'
 import About from './Components/About/About';
 import CarouselProjects from './Components/Projects/CarouselProjects';  
 import Contact from './Components/Contact/Contact'; 
-import Footer from './Components/Footer';
 import { Fragment, useEffect, useState} from 'react';
 import Skills from './Components/Skills/Skills'
 import Home from './Components/Home/Home';
@@ -52,7 +51,7 @@ function App({click}) {
       <Contact
       scrollheight={scrollheight}/>
    
-      <Footer/>
+      
       </div>
       
     </Fragment>

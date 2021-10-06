@@ -12,7 +12,7 @@ const Home = () => {
             
                 <div className ="hello_world">
                     <h1 className="hello">Hello world!</h1>
-                    <p className="description">My name is Cristian Perez, Frontend developer in progress based in Barcelona/Spain.</p>
+                    <p className="description">My name is Cristian Perez, Junior Frontend developer  based in Barcelona/Spain.</p>
                     <div className ="button">
                         <Link 
                         activeClass ="active"
