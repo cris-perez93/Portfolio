@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a1fd245b.chunk.css",
-    "main.js": "/portfolio/static/js/main.8c9470a9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8c9470a9.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.58c4910d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.58c4910d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.1fea5855.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.1fea5855.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/portfolio/static/css/2.ae9e5f60.chunk.css",
@@ -20,11 +20,11 @@
     "static/media/Pixelk.53041c86.jpg": "/portfolio/static/media/Pixelk.53041c86.jpg",
     "static/media/Reactlogo.116e502c.svg": "/portfolio/static/media/Reactlogo.116e502c.svg",
     "static/media/Redux.e18c881a.jpg": "/portfolio/static/media/Redux.e18c881a.jpg",
-    "static/media/Seguros.fcb3ee6a.jpg": "/portfolio/static/media/Seguros.fcb3ee6a.jpg",
     "static/media/Home.css": "/portfolio/static/media/banner.8ca86d8f.jpg",
     "static/media/coches.9a54e272.jpg": "/portfolio/static/media/coches.9a54e272.jpg",
     "static/media/github.a9a6c534.png": "/portfolio/static/media/github.a9a6c534.png",
     "static/media/node.687172ed.png": "/portfolio/static/media/node.687172ed.png",
+    "static/media/proyectoalumno.f54f8487.png": "/portfolio/static/media/proyectoalumno.f54f8487.png",
     "static/media/redux.010fcccb.png": "/portfolio/static/media/redux.010fcccb.png"
   },
   "entrypoints": [
@@ -32,6 +32,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.e777beb1.chunk.js",
     "static/css/main.a1fd245b.chunk.css",
-    "static/js/main.8c9470a9.chunk.js"
+    "static/js/main.58c4910d.chunk.js"
   ]
 }
