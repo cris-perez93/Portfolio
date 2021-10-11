@@ -128,7 +128,7 @@ const CarouselProjects = () => {
             </div>
 
               <div className="hover_container">
-              <h2>Alumn Administration</h2>
+              <h2>Crud Alumn</h2>
               <div className="details">
                     
                     <p>Project with a series of functionalities created with React, ContextAPI and React-Router.The React Context API is a way for a React app to effectively produce global variables that can be passed around,it is an alternative to Redux for smaller projects</p>
