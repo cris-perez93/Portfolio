@@ -1,7 +1,7 @@
 
 import Project1  from './../../Images/Pixelk.jpg';
 import Project2  from '../../Images/coches.jpg'
-import Project3  from './../../Images/Seguros.jpg';
+import Project3  from './../../Images/proyectoalumno.png';
 import Project4  from './../../Images/Ejemplo.jpg';
 import Project5  from './../../Images/Redux.jpg';
 
@@ -123,19 +123,19 @@ const CarouselProjects = () => {
           <div className="container_project">
           
             <div className="container_image_project">
-            <h3>Pro Tasks</h3>
+            <h3>Alumn Project</h3>
               <img className="projects_image" alt="project" src ={Project3}/>
             </div>
 
               <div className="hover_container">
-              <h2>Proyecto Crud</h2>
+              <h2>Alumn Administration</h2>
               <div className="details">
                     
                     <p>Project with a series of functionalities created with React, ContextAPI and React-Router.The React Context API is a way for a React app to effectively produce global variables that can be passed around,it is an alternative to Redux for smaller projects</p>
                     <div className="icons">
                   
-                    <a className="icon" href="https://github.com/cris-perez93/CrudProjects" target="_blank" rel="noreferrer" ><i className="fab fa-github" aria-hidden="true"></i></a>
-                    <a className="icon" href="https://crudproject23.herokuapp.com/" target="_blank" rel="noreferrer"><p>Demo</p></a>
+                    <a className="icon" href="https://github.com/cris-perez93/alumn-crud" target="_blank" rel="noreferrer" ><i className="fab fa-github" aria-hidden="true"></i></a>
+                    <a className="icon" href="https://cris-perez93.github.io/alumn-crud/" target="_blank" rel="noreferrer"><p>Demo</p></a>
                   </div>
 
                 </div>
